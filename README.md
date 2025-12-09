@@ -68,7 +68,7 @@
 2. Connect your ESP32 to your computer via USB
 3. Click **"Connect"** and select your ESP32's COM port
 4. Click **"Choose File"** and select the downloaded `.bin` file
-5. Set **Flash Address** to `0x10000`
+5. Set **Flash Address** to `0x0`
 6. Click **"Program"**
 7. Wait for the flashing process to complete (usually 30-60 seconds)
 8. Click **"Disconnect"** and reset your ESP32

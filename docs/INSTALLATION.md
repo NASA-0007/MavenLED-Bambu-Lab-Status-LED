@@ -212,7 +212,7 @@ Choose your configuration mode:
 
 **Problem**: "Failed to write data"
 - **Solution**:
-  - Make sure flash address is `0x10000`
+  - Make sure flash address is `0x0`
   - Try erasing flash first using ESP Flash Tool
   - Check USB cable quality
 
