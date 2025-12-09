@@ -473,15 +473,6 @@ void handleSetLEDCount() {
 	}
 }
 
-void handleGetLEDPin() {
-	DynamicJsonDocument doc(256);
-	doc["pin"] = settings.led_pin;
-	
-	String response;
-	serializeJson(doc, response);
-	server.send(200, "application/json", response);
-}
-
 void handleSetLEDPin() {
 	if (server.hasArg("plain")) {
 		DynamicJsonDocument doc(256);
