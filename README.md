@@ -60,7 +60,7 @@
 **No Arduino IDE or coding required!** Just flash the firmware directly to your ESP32.
 
 #### Step 1: Download Firmware
-1. Go to [Releases](https://github.com/YOUR_USERNAME/MavenLED/releases)
+1. Go to [Releases](https://github.com/NASA-0007/MavenLED-Bambu-Lab-Status-LED/releases)
 2. Download the latest `MavenLED_vX.X.X.bin` file
 
 #### Step 2: Flash to ESP32
@@ -73,7 +73,7 @@
 7. Wait for the flashing process to complete (usually 30-60 seconds)
 8. Click **"Disconnect"** and reset your ESP32
 
-> **Note**: For detailed troubleshooting, see [INSTALLATION.md](INSTALLATION.md)
+> **Note**: For detailed troubleshooting, see [INSTALLATION.md](docs/INSTALLATION.md)
 
 #### Step 3: Initial Setup
 1. Power on your ESP32
@@ -97,14 +97,10 @@
 
 #### Step 1: Clone Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/MavenLED.git
+git clone https://github.com/NASA-0007/MavenLED-Bambu-Lab-Status-LED.git
 ## 📚 Documentation
 
-Comprehensive documentation is available:
-
-- **[LIBRARIES.md](LIBRARIES.md)** - Complete library installation guide
-- **[MQTT_COMMANDS.md](MQTT_COMMANDS.md)** - Full MQTT command reference
-- **[HARDWARE_SETUP.md](docs/HARDWARE_SETUP.md)** - Detailed hardware wiring guide (if available)
+- **[INSTALLATION.md](docs/INSTALLATION.md)** - Complete installation and setup guide
 
 ### Core Dependencies
 
@@ -113,8 +109,6 @@ Comprehensive documentation is available:
 | Adafruit_NeoPixel | LED strip control | Arduino Library Manager |
 | ArduinoJson | JSON parsing | Arduino Library Manager |
 | PubSubClient | MQTT communication | Arduino Library Manager |
-
-*See [LIBRARIES.md](LIBRARIES.md) for complete installation instructions.*Select **ESP32 Dev Module** under Tools → Board
 3. Configure WiFi credentials (optional - can use web interface)
 4. Upload to ESP32
 
@@ -169,8 +163,6 @@ Access the web interface at:
   "value": 150
 }
 ```
-
-For complete MQTT documentation, see [MQTT_COMMANDS.md](MQTT_COMMANDS.md)
 
 ## LED States
 
@@ -264,8 +256,8 @@ Found a bug? Have a feature request?
 
 ## 💬 Support & Community
 
-- **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/MavenLED/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/YOUR_USERNAME/MavenLED/discussions)
+- **Issues**: [GitHub Issues](https://github.com/NASA-0007/MavenLED-Bambu-Lab-Status-LED/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/NASA-0007/MavenLED-Bambu-Lab-Status-LED/discussions)
 - **Documentation**: See [docs](docs/) folder for detailed guides
 
 ## 🙏 Acknowledgments
@@ -308,14 +300,6 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 - ✅ Added comprehensive MQTT remote control commands
 - ✅ Updated documentation with MQTT integration
 - ✅ Improved command acknowledgment system
-
-## 📚 Documentation
-
-- **[MQTT_COMMANDS.md](MQTT_COMMANDS.md)** - Complete MQTT command reference
-- **[NEW_FEATURES.md](NEW_FEATURES.md)** - Detailed guide for new features
-- **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** - Quick command reference
-- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - MQTT troubleshooting guide
-
 
 ## Support
 

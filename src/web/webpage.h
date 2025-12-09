@@ -88,7 +88,7 @@ inline const char* webPage = R"delimiter(
             <h1>MavenLED Control Panel</h1>
             <p>Advanced LED Strip Controller for 3D Printer Monitoring</p>
             <div style="margin-top: 10px;">
-                <a href="https://github.com/NASA-0007" target="_blank" style="color: #00ff88; text-decoration: none; font-size: 0.9em; opacity: 0.8;">
+                <a href="https://github.com/NASA-0007/MavenLED-Bambu-Lab-Status-LED" target="_blank" style="color: #00ff88; text-decoration: none; font-size: 0.9em; opacity: 0.8;">
                     Created by NASA-0007
                 </a>
             </div>

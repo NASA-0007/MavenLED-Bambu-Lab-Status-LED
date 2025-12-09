@@ -22,7 +22,7 @@ Complete step-by-step installation instructions for MavenLED firmware.
 
 #### 1. Download Firmware
 
-1. Go to the [Releases page](https://github.com/YOUR_USERNAME/MavenLED/releases)
+1. Go to the [Releases page](https://github.com/NASA-0007/MavenLED-Bambu-Lab-Status-LED/releases)
 2. Find the latest release
 3. Download the `MavenLED_vX.X.X.bin` file
 4. Remember where you saved it!
@@ -322,7 +322,7 @@ Save your settings:
 
 ## Getting Help
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/YOUR_USERNAME/MavenLED/issues)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/NASA-0007/MavenLED-Bambu-Lab-Status-LED/issues)
 - **Documentation**: Check other `.md` files in repository
 - **Serial Logs**: Always include serial monitor output when reporting issues
 
