@@ -1,0 +1,30 @@
+# Build outputs
+build/
+*.bin
+*.elf
+*.hex
+
+# Arduino IDE
+*.ino.*.bin
+*.ino.*.elf
+*.ino.*.map
+
+# VS Code
+.vscode/
+.vs/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# SPIFFS data (optional - uncomment if you don't want to track)
+# data/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
