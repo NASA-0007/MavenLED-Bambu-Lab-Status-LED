@@ -1,4 +1,4 @@
-# MavenLED 🎨💡
+# MavenLED
 
 <div align="center">
 
@@ -17,29 +17,29 @@
 ## Features
 
 ### LED Control
-- ✨ Dynamic LED animations for different printer states
-- 🎨 Customizable colors for each state
-- 🌙 Night mode with adjustable brightness
-- 🔄 Configurable animation directions
-- 📱 Web-based control interface
-- 💾 Settings persistence in EEPROM
+-  Dynamic LED animations for different printer states
+-  Customizable colors for each state
+-  Night mode with adjustable brightness
+-  Configurable animation directions
+-  Web-based control interface
+-  Settings persistence in EEPROM
 
 ### MQTT Integration
-- 🌐 Remote control via MQTT
-- 🔄 Real-time status updates
-- 📡 Command acknowledgments
-- 🔧 Full LED control
-- 📊 Device status monitoring
-- 🖨️ **NEW!** Dedicated printer status topic with real-time updates
-- 🎨 **NEW!** Simplified individual color setting by state name
-- 🔄 **NEW!** Boolean direction values (true/false) for easier control
+-  Remote control via MQTT
+-  Real-time status updates
+-  Command acknowledgments
+-  Full LED control
+-  Device status monitoring
+- ️ Dedicated printer status topic with real-time updates
+-  Simplified individual color setting by state name
+-  Boolean direction values (true/false) for easier control
 
 ### 3D Printer Integration
-- 🖨️ Bambu Lab printer MQTT support
-- 📊 Real-time print status monitoring
-- 🔥 Temperature monitoring (heating/cooling)
-- 📈 Print progress visualization
-- ⏱️ Remaining time display
+- ️ Bambu Lab printer MQTT support
+-  Real-time print status monitoring
+-  Temperature monitoring (heating/cooling)
+-  Print progress visualization
+- ️ Remaining time display
 
 ## Hardware Requirements
 
@@ -53,7 +53,7 @@
 |-----------|----------|-------------|
 | LED Strip | 17 | Data line for WS2812B |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Option 1: Flash Pre-built Firmware (Recommended for Users)
 
@@ -98,7 +98,7 @@
 #### Step 1: Clone Repository
 ```bash
 git clone https://github.com/NASA-0007/MavenLED-Bambu-Lab-Status-LED.git
-## 📚 Documentation
+##  Documentation
 
 - **[INSTALLATION.md](docs/INSTALLATION.md)** - Complete installation and setup guide
 
@@ -140,11 +140,11 @@ Access the web interface at:
 - `http://[ESP32_IP_ADDRESS]`
 
 ### Features:
-- 🎨 Color customization for all LED states
-- 💡 Brightness control and night mode
-- 🔄 Animation direction settings
-- 🌐 MQTT configuration
-- 📊 Real-time status display
+-  Color customization for all LED states
+-  Brightness control and night mode
+-  Animation direction settings
+-  MQTT configuration
+-  Real-time status display
 
 ## MQTT Remote Control
 
@@ -198,19 +198,19 @@ Access the web interface at:
 - `GET /api/status` - Device status
 - `POST /api/settings` - Update settings
 - `POST /api/colors` - Set custom colors
-## 📄 License
+##  License
 
 This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
 
 ### What this means:
-- ✅ You can use this software commercially
-- ✅ You can modify and distribute the software
-- ✅ You can use this software privately
-- ⚠️ You must disclose source code when distributing
-- ⚠️ You must include the original license and copyright
-- ⚠️ Changes must be documented
+-  You can use this software commercially
+-  You can modify and distribute the software
+-  You can use this software privately
+- ️ You must disclose source code when distributing
+- ️ You must include the original license and copyright
+- ️ Changes must be documented
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome and appreciated! Here's how you can help:
 
@@ -254,20 +254,20 @@ Found a bug? Have a feature request?
 - Check data line connection to GPIO 17
 - Confirm LED count setting matches strip
 
-## 💬 Support & Community
+##  Support & Community
 
 - **Issues**: [GitHub Issues](https://github.com/NASA-0007/MavenLED-Bambu-Lab-Status-LED/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/NASA-0007/MavenLED-Bambu-Lab-Status-LED/discussions)
 - **Documentation**: See [docs](docs/) folder for detailed guides
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Built for Bambu Lab 3D printers
 - Uses Adafruit NeoPixel library
 - MQTT integration via PubSubClient
 - Created by [NASA-0007](https://github.com/NASA-0007)
 
-## ⭐ Star History
+##  Star History
 
 If you find this project useful, please consider giving it a star! It helps others discover the project.
 
@@ -275,7 +275,7 @@ If you find this project useful, please consider giving it a star! It helps othe
 
 <div align="center">
 
-**Made with ❤️ for the 3D printing community**
+**Made with ️ for the 3D printing community**
 
 </div>
 This project is open source. Feel free to modify and distribute according to your needs.
@@ -286,20 +286,20 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 ## Changelog
 
-### Latest Changes (v2.0) 🎉
-- ✅ **NEW!** Dedicated printer status MQTT topic (`MavenLED/<chip_id>/printer`)
-- ✅ **NEW!** Real-time printer status updates (every 10s + on change)
-- ✅ **NEW!** Simplified color setting with `set_color` command (set individual colors by state name)
-- ✅ **NEW!** Boolean direction values (true/false instead of 1/-1)
-- ✅ **NEW!** Individual direction setting with `set_direction` command
-- ✅ Enhanced buffer size for remote MQTT (2KB for reliable JSON handling)
-- ✅ Added keepalive setting for stable MQTT connections
-- ✅ Comprehensive debugging for MQTT command reception
+### Latest Changes (v2.0) 
+-  Dedicated printer status MQTT topic (`MavenLED/<chip_id>/printer`)
+-  Real-time printer status updates (every 10s + on change)
+-  Simplified color setting with `set_color` command (set individual colors by state name)
+-  Boolean direction values (true/false instead of 1/-1)
+-  Individual direction setting with `set_direction` command
+-  Enhanced buffer size for remote MQTT (2KB for reliable JSON handling)
+-  Added keepalive setting for stable MQTT connections
+-  Comprehensive debugging for MQTT command reception
 
 ### Previous Updates
-- ✅ Added comprehensive MQTT remote control commands
-- ✅ Updated documentation with MQTT integration
-- ✅ Improved command acknowledgment system
+-  Added comprehensive MQTT remote control commands
+-  Updated documentation with MQTT integration
+-  Improved command acknowledgment system
 
 ## Support
 
