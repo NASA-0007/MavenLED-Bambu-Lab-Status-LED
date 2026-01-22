@@ -1,6 +1,4 @@
-<div align='center'>
 # MavenLED
-  </div>
 <div align="center">
 
 ![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg)
